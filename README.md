@@ -73,5 +73,5 @@ Um ataque real seguiria o seguinte fluxo:
 ## Sobre a equipe
 
 Nossa equipe é composta por membros do [ELT](https://ctftime.org/team/9061), time
-interinstitucional que participa de competições de CTF. Conheça também o
+interinstitucional que participa de competições de CTF, e do Professor Dr. Diego F. Aranha, da Unicamp. Conheça também o
 [Pwn2Win](https://pwn2win.party), competição organizada anualmente por nós.
