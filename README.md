@@ -37,7 +37,7 @@ configurada diretamente no código fonte dos utilitários (variável `key1`).
 ### Alteração de votos na urna
 
 O arquivo [exploit.py](exploit/exploit.py) ilustra o ataque que propomos para
-alterar votos na urna. Infectamos o código da biblioteca [hkdf](exploit/hkdf.cpp) com um
+alterar votos na urna. Infectamos a biblioteca [hkdf](exploit/hkdf.cpp) com um
 código que, por sua vez, infecta o espaço de memória do executável
 [vota](exploit/vota.cpp) (software de votação).
 
