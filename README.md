@@ -26,7 +26,7 @@ Disponibilizamos aqui dois utilitários relacionados a esse sistema de arquivos:
 Note que é necessário fornecer a imagem do disco (`dsk.img`), por dois motivos:
 
  * O *padding* da cifra não pode ser lido diretamente a partir do espaço de usuário,
-   portanto lemos da imagem de disco.
+   portanto lemos da imagem de disco.
 
  * Uma das chaves do AES-XTS está contida no segundo setor da partição, e é recuperada
    pelos próprios utilitários.
