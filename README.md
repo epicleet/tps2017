@@ -10,17 +10,17 @@ uma vulnerabilidade que permitia **execução de código arbitrário** na Urna E
  * [Slides](https://epicleet.github.io/tps2017/apresentacao/slides.pdf) da palestra técnica
    com nossos relatos dos testes.
 
-### Encriptação e decriptação do sistema de arquivos
+### Cifragem e decifragem do sistema de arquivos
 
 O cartão de carga da urna utiliza o sistema de arquivos `ueminix` (customizado pelo TSE),
-que ofusca o conteúdo dos arquivos encriptando-os com AES-XTS.
+que ofusca o conteúdo dos arquivos cifrando-os com AES-XTS.
 
 Disponibilizamos aqui dois utilitários relacionados a esse sistema de arquivos:
 
- * [encall.py](fs_crypto/encall.py): encripta os arquivos originais, criando um diretório `enc`
+ * [encall.py](fs_crypto/encall.py): cifra os arquivos originais, criando um diretório `enc`
    com os arquivos cifrados.
 
- * [decall.py](fs_crypto/decall.py): decripta os arquivos do diretório `enc`, criando um
+ * [decall.py](fs_crypto/decall.py): decifra os arquivos do diretório `enc`, criando um
    diretório `dec` com todos os arquivos decifrados.
 
 Note que é necessário fornecer a imagem do disco (`dsk.img`), por dois motivos:
@@ -34,8 +34,8 @@ Note que é necessário fornecer a imagem do disco (`dsk.img`), por dois motivos
 A outra chave do AES-XTS pode ser recuperada do código do `ueminix` no kernel, e deve ser
 configurada diretamente no código fonte dos utilitários (variável `key1`). Sem acesso ao 
 código fonte, essa chave poderia ser obtida através de engenharia reversa do bootloader e 
-da decriptação do kernel (ver página 8 do
-[relatório feito pelo TSE](https://epicleet.github.io/tps2017/relatorios/tse/relatorioTPS2017.pdf)).
+do kernel decifrado (ver
+[relatório feito pelo TSE](https://epicleet.github.io/tps2017/relatorios/tse/relatorioTPS2017.pdf#page=8)).
 
 ### Alteração de votos na urna
 
@@ -69,11 +69,11 @@ os votos foram alterados.
 Um ataque real seguiria o seguinte fluxo:
 
 1. Obteríamos a imagem com o conteúdo de uma mídia de carga
-2. Fariamos engenharia reversa no bootloader e no kernel decriptado para obter a 
-chave que encripta/decripta os outros arquivos da mídia de carga
-3. Decriptaríamos o sistema de arquivos
+2. Faríamos engenharia reversa no bootloader e no kernel decifrado para obter a 
+chave que cifra/decifra os outros arquivos da mídia de carga
+3. Decifraríamos o sistema de arquivos
 4. Executaríamos o exploit para infectar o arquivo `libhkdf.so` original
-5. Encriptaríamos novamente para gerar uma mídia de carga modificada
+5. Cifraríamos novamente para gerar uma mídia de carga modificada
 
 ## Sobre a equipe
 
