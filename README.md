@@ -32,7 +32,10 @@ Note que é necessário fornecer a imagem do disco (`dsk.img`), por dois motivos
    pelos próprios utilitários.
 
 A outra chave do AES-XTS pode ser recuperada do código do `ueminix` no kernel, e deve ser
-configurada diretamente no código fonte dos utilitários (variável `key1`).
+configurada diretamente no código fonte dos utilitários (variável `key1`). Sem acesso ao 
+código fonte, essa chave poderia ser obtida através de engenharia reversa do bootloader e 
+da decriptação do kernel (ver página 8 do
+[relatório feito pelo TSE](https://epicleet.github.io/tps2017/relatorios/tse/relatorioTPS2017.pdf)).
 
 ### Alteração de votos na urna
 
@@ -66,9 +69,11 @@ os votos foram alterados.
 Um ataque real seguiria o seguinte fluxo:
 
 1. Obteríamos a imagem com o conteúdo de uma mídia de carga
-2. Decriptaríamos o sistema de arquivos
-3. Executaríamos o exploit para infectar o arquivo `libhkdf.so` original
-4. Encriptaríamos novamente para gerar uma mídia de carga modificada
+2. Fariamos engenharia reversa no bootloader e no kernel decriptado para obter a 
+chave que encripta/decripta os outros arquivos da mídia de carga
+3. Decriptaríamos o sistema de arquivos
+4. Executaríamos o exploit para infectar o arquivo `libhkdf.so` original
+5. Encriptaríamos novamente para gerar uma mídia de carga modificada
 
 ## Sobre a equipe
 
