@@ -1,0 +1,4 @@
+\babel@toc {brazilian}{}
+\beamer@sectionintoc {1}{Organização do sistema:\\ preparação, votação, totalização}{4}{0}{1}
+\beamer@sectionintoc {2}{Limitações de transparência:\\ o que pode dar errado?}{9}{0}{2}
+\beamer@sectionintoc {3}{Mas o \emph {software} é 100\% seguro!\\Somos líder em tecnologia eleitoral... certo?}{15}{0}{3}

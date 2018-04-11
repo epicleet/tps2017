@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: demo.aux
+The style file: alpha.bst
+Database file #1: demo.bib
+Repeated entry---line 277 of file demo.bib
+ : @article{GeovandroSNB11
+ :                        ,
+I'm skipping whatever remains of this entry
+You've used 31 entries,
+            2543 wiz_defined-function locations,
+            773 strings with 9518 characters,
+and the built_in function-call counts, 16634 in all, are:
+= -- 1756
+> -- 718
+< -- 46
++ -- 252
+- -- 250
+* -- 1242
+:= -- 2484
+add.period$ -- 115
+call.type$ -- 31
+change.case$ -- 213
+chr.to.int$ -- 31
+cite$ -- 31
+duplicate$ -- 706
+empty$ -- 1231
+format.name$ -- 280
+if$ -- 3618
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 30
+newline$ -- 159
+num.names$ -- 93
+pop$ -- 198
+preamble$ -- 1
+purify$ -- 244
+quote$ -- 0
+skip$ -- 619
+stack$ -- 0
+substring$ -- 1058
+swap$ -- 279
+text.length$ -- 46
+text.prefix$ -- 4
+top$ -- 0
+type$ -- 248
+warning$ -- 0
+while$ -- 169
+width$ -- 34
+write$ -- 447
+(There was 1 error message)

@@ -1,0 +1,19 @@
+\frametitle{TPS 2017 -- Inspeção de código}
+
+Edital de abertura especificava que investigadores não teriam acesso a chaves criptográficas.
+
+\bigskip
+
+\begin{block}{Interpretação do TSE}
+Apagar as chaves criptográficas do código, ``\emph{para aumentar o desafio}''!
+\end{block}
+
+\bigskip
+\pause
+
+\alert{Falha operacional:} Felizmente, não apagaram todas. Encontramos chave em claro na versão 3.18 do \emph{kernel}. :)
+
+\bigskip
+
+Equipe fez uma análise inicialmente superficial do sistema, depois aprofundada nos {\bf mecanismos criptográficos}, que concentram \textbf{risco}.
+

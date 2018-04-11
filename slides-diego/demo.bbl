@@ -1,0 +1,198 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{BCM{\etalchar{+}}15}
+
+\bibitem[AFK{\etalchar{+}}12]{AranhaFKMR12}
+Diego~F. Aranha, Laura Fuentes{-}Casta{\~{n}}eda, Edward Knapp, Alfred Menezes,
+  and Francisco Rodr{\'{\i}}guez{-}Henr{\'{\i}}quez.
+\newblock Implementing pairings at the 192-bit security level.
+\newblock In {\em Pairing}, volume 7708 of {\em Lecture Notes in Computer
+  Science}, pages 177--195. Springer, 2012.
+
+\bibitem[AKL{\etalchar{+}}11]{AranhaKLGL11}
+Diego~F. Aranha, Koray Karabina, Patrick Longa, Catherine~H. Gebotys, and Julio
+  L{\'{o}}pez.
+\newblock Faster explicit formulas for computing pairings over ordinary curves.
+\newblock In {\em {EUROCRYPT}}, volume 6632 of {\em Lecture Notes in Computer
+  Science}, pages 48--68. Springer, 2011.
+
+\bibitem[AM16]{aumasson-merino}
+Jean~Philippe Aumasson and Luis Merino.
+\newblock Sgx secure enclaves in practice: Security and crypto review.
+\newblock BlackHat, 2016.
+
+\bibitem[BB04]{BonehB04}
+Dan Boneh and Xavier Boyen.
+\newblock Short signatures without random oracles.
+\newblock In {\em {EUROCRYPT}}, volume 3027 of {\em Lecture Notes in Computer
+  Science}, pages 56--73. Springer, 2004.
+
+\bibitem[BCG{\etalchar{+}}14]{Ben-SassonCG0MTV14}
+Eli Ben{-}Sasson, Alessandro Chiesa, Christina Garman, Matthew Green, Ian
+  Miers, Eran Tromer, and Madars Virza.
+\newblock Zerocash: Decentralized anonymous payments from bitcoin.
+\newblock In {\em {IEEE} Symposium on Security and Privacy}, pages 459--474.
+  {IEEE} Computer Society, 2014.
+
+\bibitem[BCM{\etalchar{+}}15]{BarretoCMNPZ15}
+Paulo S. L.~M. Barreto, Craig Costello, Rafael Misoczki, Michael Naehrig,
+  Geovandro C. C.~F. Pereira, and Gustavo Zanon.
+\newblock Subgroup security in pairing-based cryptography.
+\newblock In {\em {LATINCRYPT}}, volume 9230 of {\em Lecture Notes in Computer
+  Science}, pages 245--265. Springer, 2015.
+
+\bibitem[BD17]{BarbulescuD17}
+Razvan Barbulescu and Sylvain Duquesne.
+\newblock Updating key size estimations for pairings.
+\newblock {\em {IACR} Cryptology ePrint Archive}, 2017:334, 2017.
+
+\bibitem[BF01]{BonehF01}
+Dan Boneh and Matthew~K. Franklin.
+\newblock Identity-based encryption from the weil pairing.
+\newblock In {\em {CRYPTO}}, volume 2139 of {\em Lecture Notes in Computer
+  Science}, pages 213--229. Springer, 2001.
+
+\bibitem[BGJT14]{BarbulescuGJT14}
+Razvan Barbulescu, Pierrick Gaudry, Antoine Joux, and Emmanuel Thom{\'{e}}.
+\newblock A heuristic quasi-polynomial algorithm for discrete logarithm in
+  finite fields of small characteristic.
+\newblock In {\em {EUROCRYPT}}, volume 8441 of {\em Lecture Notes in Computer
+  Science}, pages 1--16. Springer, 2014.
+
+\bibitem[BKLS02]{BarretoKLS02}
+Paulo S. L.~M. Barreto, Hae~Yong Kim, Ben Lynn, and Michael Scott.
+\newblock Efficient algorithms for pairing-based cryptosystems.
+\newblock In {\em {CRYPTO}}, volume 2442 of {\em Lecture Notes in Computer
+  Science}, pages 354--368. Springer, 2002.
+
+\bibitem[BL12]{BrickellL12}
+Ernie Brickell and Jiangtao Li.
+\newblock Enhanced privacy {ID:} {A} direct anonymous attestation scheme with
+  enhanced revocation capabilities.
+\newblock {\em {IEEE} Trans. Dependable Sec. Comput.}, 9(3):345--360, 2012.
+
+\bibitem[BLS02]{BarretoLS02}
+Paulo S. L.~M. Barreto, Ben Lynn, and Michael Scott.
+\newblock Constructing elliptic curves with prescribed embedding degrees.
+\newblock In {\em {SCN}}, volume 2576 of {\em Lecture Notes in Computer
+  Science}, pages 257--267. Springer, 2002.
+
+\bibitem[BN05]{BarretoN05}
+Paulo S. L.~M. Barreto and Michael Naehrig.
+\newblock Pairing-friendly elliptic curves of prime order.
+\newblock In {\em Selected Areas in Cryptography}, volume 3897 of {\em Lecture
+  Notes in Computer Science}, pages 319--331. Springer, 2005.
+
+\bibitem[CH07]{ChungH07}
+Jaewook Chung and M.~Anwar Hasan.
+\newblock Asymmetric squaring formulae.
+\newblock In {\em {IEEE} Symposium on Computer Arithmetic}, pages 113--122.
+  {IEEE} Computer Society, 2007.
+
+\bibitem[CMR17]{ChatterjeeMR17}
+Sanjit Chatterjee, Alfred Menezes, and Francisco
+  Rodr{\'{\i}}guez{-}Henr{\'{\i}}quez.
+\newblock On instantiating pairing-based protocols with elliptic curves of
+  embedding degree one.
+\newblock {\em {IEEE} Trans. Computers}, 66(6):1061--1070, 2017.
+
+\bibitem[CS10]{CostelloS10}
+Craig Costello and Douglas Stebila.
+\newblock Fixed argument pairings.
+\newblock In {\em {LATINCRYPT}}, volume 6212 of {\em Lecture Notes in Computer
+  Science}, pages 92--108. Springer, 2010.
+
+\bibitem[FKR11]{Fuentes-CastanedaKR11}
+Laura Fuentes{-}Casta{\~{n}}eda, Edward Knapp, and Francisco
+  Rodr{\'{\i}}guez{-}Henr{\'{\i}}quez.
+\newblock Faster hashing to {\textdollar}\{{\textbackslash}mathbb
+  G\}{\_}2{\textdollar}.
+\newblock In {\em Selected Areas in Cryptography}, volume 7118 of {\em Lecture
+  Notes in Computer Science}, pages 412--430. Springer, 2011.
+
+\bibitem[GJNB11]{GeovandroSNB11}
+C.~C. F.~Pereira Geovandro, Marcos A.~Simpl{\'{\i}}cio Jr., Michael Naehrig,
+  and Paulo S. L.~M. Barreto.
+\newblock A family of implementation-friendly {BN} elliptic curves.
+\newblock {\em Journal of Systems and Software}, 84(8):1319--1326, 2011.
+
+\bibitem[GLV01]{GallantLV01}
+Robert~P. Gallant, Robert~J. Lambert, and Scott~A. Vanstone.
+\newblock Faster point multiplication on elliptic curves with efficient
+  endomorphisms.
+\newblock In {\em {CRYPTO}}, volume 2139 of {\em Lecture Notes in Computer
+  Science}, pages 190--200. Springer, 2001.
+
+\bibitem[GS08]{GalbraithS08}
+Steven~D. Galbraith and Michael Scott.
+\newblock Exponentiation in pairing-friendly groups using homomorphisms.
+\newblock In {\em Pairing}, volume 5209 of {\em Lecture Notes in Computer
+  Science}, pages 211--224. Springer, 2008.
+
+\bibitem[GS10]{GrangerS10}
+Robert Granger and Michael Scott.
+\newblock Faster squaring in the cyclotomic subgroup of sixth degree
+  extensions.
+\newblock In {\em Public Key Cryptography}, volume 6056 of {\em Lecture Notes
+  in Computer Science}, pages 209--223. Springer, 2010.
+
+\bibitem[Kar13]{Karabina13}
+Koray Karabina.
+\newblock Squaring in cyclotomic subgroups.
+\newblock {\em Math. Comput.}, 82(281):555--579, 2013.
+
+\bibitem[KB16]{0001B16}
+Taechan Kim and Razvan Barbulescu.
+\newblock Extended tower number field sieve: {A} new complexity for the medium
+  prime case.
+\newblock In {\em {CRYPTO} {(1)}}, volume 9814 of {\em Lecture Notes in
+  Computer Science}, pages 543--571. Springer, 2016.
+
+\bibitem[KSS08]{KachisaSS08}
+Ezekiel~J. Kachisa, Edward~F. Schaefer, and Michael Scott.
+\newblock Constructing brezing-weng pairing-friendly elliptic curves using
+  elements in the cyclotomic field.
+\newblock In {\em Pairing}, volume 5209 of {\em Lecture Notes in Computer
+  Science}, pages 126--135. Springer, 2008.
+
+\bibitem[MSS16]{MenezesS016}
+Alfred Menezes, Palash Sarkar, and Shashank Singh.
+\newblock Challenges with assessing the impact of {NFS} advances on the
+  security of pairing-based cryptography.
+\newblock In {\em Mycrypt}, volume 10311 of {\em Lecture Notes in Computer
+  Science}, pages 83--108. Springer, 2016.
+
+\bibitem[NSW09]{NevenSW09}
+Gregory Neven, Nigel~P. Smart, and Bogdan Warinschi.
+\newblock Hash function requirements for schnorr signatures.
+\newblock {\em J. Mathematical Cryptology}, 3(1):69--87, 2009.
+
+\bibitem[SBC{\etalchar{+}}09]{ScottBCPK09a}
+Michael Scott, Naomi Benger, Manuel Charlemagne, Luis J.~Dominguez Perez, and
+  Ezekiel~J. Kachisa.
+\newblock Fast hashing to \emph{G}\({}_{\mbox{2}}\) on pairing-friendly curves.
+\newblock In {\em Pairing}, volume 5671 of {\em Lecture Notes in Computer
+  Science}, pages 102--113. Springer, 2009.
+
+\bibitem[Sco05]{Scott05}
+Michael Scott.
+\newblock Computing the tate pairing.
+\newblock In {\em {CT-RSA}}, volume 3376 of {\em Lecture Notes in Computer
+  Science}, pages 293--304. Springer, 2005.
+
+\bibitem[Sco13]{Scott13}
+Michael Scott.
+\newblock Unbalancing pairing-based key exchange protocols.
+\newblock {\em {IACR} Cryptology ePrint Archive}, 2013:688, 2013.
+
+\bibitem[Ver10]{Vercauteren10}
+Frederik Vercauteren.
+\newblock Optimal pairings.
+\newblock {\em {IEEE} Trans. Information Theory}, 56(1):455--461, 2010.
+
+\bibitem[ZW13]{ZhangW13}
+Xusheng Zhang and Kunpeng Wang.
+\newblock Fast symmetric pairing revisited.
+\newblock In {\em Pairing}, volume 8365 of {\em Lecture Notes in Computer
+  Science}, pages 131--148. Springer, 2013.
+
+\end{thebibliography}
