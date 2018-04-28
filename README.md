@@ -48,18 +48,13 @@ Os trechos de código do [hkdf](exploit/hkdf.cpp) e do [vota](exploit/gui/infoel
 a estrutura do software original da urna eletrônica, permitindo simular o ataque em um
 modelo simplificado muito próximo do sistema real.
 
-Para executar o simulador do software de votação, entre no diretório `exploit` e execute:
-
-```
-make test_gui
-```
+Para executar o simulador do software de votação, entre no diretório `exploit` e execute
+`make test_cli` para iniciar o simulador modo texto, ou `make test_gui` para iniciar
+o simulador gráfico.
 
 Para infectar a biblioteca, instale o [pwntools](https://github.com/Gallopsled/pwntools#installation)
-e execute:
-
-```
-make exploit_gui
-```
+e execute `make exploit_cli` para comprometer o simulador modo texto, ou
+`make exploit_gui` para comprometer o simulador modo gráfico.
 
 Depois disso, ao executar novamente o simulador do software de votação, você observará que
 os votos foram alterados.
