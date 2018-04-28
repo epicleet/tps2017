@@ -32,8 +32,8 @@ Note que é necessário fornecer a imagem do disco (`dsk.img`), por dois motivos
    pelos próprios utilitários.
 
 A outra chave do AES-XTS pode ser recuperada do código do `ueminix` no kernel, e deve ser
-configurada diretamente no código fonte dos utilitários (variável `key1`). Sem acesso ao 
-código fonte, essa chave poderia ser obtida através de engenharia reversa do bootloader e 
+configurada diretamente no código fonte dos utilitários (variável `key1`). Sem acesso ao
+código fonte, essa chave poderia ser obtida através de engenharia reversa do bootloader e
 do kernel decifrado (ver
 [relatório feito pelo TSE](https://epicleet.github.io/tps2017/relatorios/tse/relatorioTPS2017.pdf#page=8)).
 
@@ -42,23 +42,23 @@ do kernel decifrado (ver
 O arquivo [exploit.py](exploit/exploit.py) ilustra o ataque que propomos para
 alterar votos na urna. Infectamos a biblioteca [hkdf](exploit/hkdf.cpp) com um
 código que, por sua vez, infecta o espaço de memória do executável
-[vota](exploit/vota.cpp) (software de votação).
+[vota](exploit/gui/infoeleitor.cpp) (software de votação).
 
-Os trechos de código do [hkdf](exploit/hkdf.cpp) e do [vota](exploit/vota.cpp) replicam
+Os trechos de código do [hkdf](exploit/hkdf.cpp) e do [vota](exploit/gui/infoeleitor.cpp) replicam
 a estrutura do software original da urna eletrônica, permitindo simular o ataque em um
 modelo simplificado muito próximo do sistema real.
 
 Para executar o simulador do software de votação, entre no diretório `exploit` e execute:
 
 ```
-make test
+make test_gui
 ```
 
 Para infectar a biblioteca, instale o [pwntools](https://github.com/Gallopsled/pwntools#installation)
 e execute:
 
 ```
-make exploit
+make exploit_gui
 ```
 
 Depois disso, ao executar novamente o simulador do software de votação, você observará que
@@ -69,7 +69,7 @@ os votos foram alterados.
 Um ataque real seguiria o seguinte fluxo:
 
 1. Obteríamos a imagem com o conteúdo de uma mídia de carga
-2. Faríamos engenharia reversa no bootloader e no kernel decifrado para obter a 
+2. Faríamos engenharia reversa no bootloader e no kernel decifrado para obter a
 chave que cifra/decifra os outros arquivos da mídia de carga
 3. Decifraríamos o sistema de arquivos
 4. Executaríamos o exploit para infectar o arquivo `libhkdf.so` original
