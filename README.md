@@ -1,7 +1,7 @@
 # Resultados do TPS 2017
 
 Durante o Teste Público de Segurança do Sistema Eletrônico de Votação de 2017, encontramos
-uma vulnerabilidade que permitia **execução de código arbitrário** na Urna Eletrônica.
+vulnerabilidades que permitiam **execução de código arbitrário** na Urna Eletrônica.
 
 ## Conteúdo deste repositório
 
