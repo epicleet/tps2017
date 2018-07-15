@@ -48,6 +48,16 @@ Os trechos de código do [hkdf](exploit/hkdf.cpp) e do [vota](exploit/gui/infoel
 a estrutura do software original da urna eletrônica, permitindo simular o ataque em um
 modelo simplificado muito próximo do sistema real.
 
+Assim como o software original da urna, o simulador do software de votação é um software de 32 bits.
+Por isso, caso o seu sistema seja de 64 bits, você precisa instalar as bibliotecas de 32 bits para
+conseguir executá-lo. Por exemplo, caso você utilize Debian ou Ubuntu, execute os seguintes comandos:
+
+```bash
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install libqt5multimedia5:i386
+```
+
 Para executar o simulador do software de votação, entre no diretório `exploit` e execute
 `make test_cli` para iniciar o simulador modo texto, ou `make test_gui` para iniciar
 o simulador gráfico.
@@ -58,6 +68,8 @@ e execute `make exploit_cli` para comprometer o simulador modo texto, ou
 
 Depois disso, ao executar novamente o simulador do software de votação, você observará que
 os votos foram alterados.
+
+Se quiser restaurar o comportamento original, execute `make restore`.
 
 ### Fluxo de um ataque real
 
