@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="pt-br" class="no-js lt-ie9 lt-ie8 lt-ie7">
+<![endif]--><!--[if IE 7]>
+<html lang="pt-br" class="no-js lt-ie9 lt-ie8">
+<![endif]--><!--[if IE 8]>
+<html lang="pt-br" class="no-js lt-ie9">
+<![endif]--><!--[if gt IE 8]>
+<!--><html lang="pt-br" class="no-js">
+<!--<![endif]--><head><script type="text/javascript" src="/static/js/ait-client-rewrite.js"></script>
+<script type="text/javascript">
+WB_wombat_Init('https://web.archive.org/web', '20180628005148', 'www.tse.jus.br');
+</script>
+<script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app42.us.archive.org';v.server_ms=349;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/static/js/wbhack.js?v=1533593143.0" charset="utf-8"></script>
+
+<script type="text/javascript">
+__wbhack.init('https://web.archive.org/web');
+</script>
+<link rel="stylesheet" type="text/css" href="/static/css/banner-styles.css?v=1533593143.0" />
+<link rel="stylesheet" type="text/css" href="/static/css/iconochive.css?v=1533593143.0" />
+
+<!-- End Wayback Rewrite JS Include -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta content="Página HTML" name="DC.portal_type">
+<meta content="Acessibilidades" name="DC.title">
+<meta content="Página de acesso aos recursos de acessibilidade do Portal" name="description">
+<meta content=" 
+     
+                          
+                             
+                                
+                                    
+                             
+                         
+                      -->
+     
+         Acessibilidade 
+     
+     
+
+
+         Atalhos 
+         Confira os comandos utilizados como atalhos para acessar seções específicas no Portal TSE: 
+         Usando o Google Chrome 
+         
+
+             Alt+1 direciona para o conteúdo principal do portal 
+             Alt+2 direciona para o menu principal do portal. 
+             Alt+3 direciona para o campo de busca. 
+             Alt+4 direciona para o mapa do site. 
+             Alt+5 redireciona para a página de busca avançada. 
+             Alt+6 redireciona para a página inicial. 
+             Alt+7 redireciona para a página de acessibilidade. 
+
+
+
+          
+         Usando o Firefox 
+         Ao utilizar o navegador Firefox, substitua Alt + número pelo comando Alt + Shift + número. Sendo Firefox no Mac OS, em vez de Alt + Shift + número, tecle Ctrl + Alt + número.  
+         Usando o Internet Explorer 
+         Para quem utiliza o Internet Explorer, usa o Alt + número + Enter.   
+         Usando o Ópera 
+         Tecla-se Shift + Esc + número. Ao teclar apenas Shift + Esc será exibida uma janela com todas as alternativas de Acesskey da página. 
+         Zoom 
+         Para facilitar a visualização, você pode usar o zoom do navegador (Internet Explorer, Mozilla Firefox, etc.).  
+          Confira os comandos que acionam as funções do zoom: 
+         
+             Para aumentar a definição, basta pressionar a tecla CTRL e a tecla + simultaneamente. 
+             Para diminuir, pressione a tecla CTRL e a tecla - ao mesmo tempo. 
+             Para voltar ao tamanho normal, pressione a tecla CTRL e a tecla 0 (zero). 
+         
+           
+         O TSE desenvolve ações no sentido de facilitar e ampliar o acesso a seu portal de internet aos portadores de necessidades especiais e àqueles com restrições motoras transitórias. 
+          Ao codificar suas páginas web em conformidade com as recomendações do órgão que estabelece as diretrizes internacionais para a acessibilidade na Web - Web Content Accessibility Guidelines (WCAG), também atende ao que estabelece o art. 8º, § 3º, inciso VIII da  Lei nº 12.527/2011  (Lei de Acesso à Informação), a  Resolução-TSE nº 23.381/2012 , o  Decreto nº 5.296/2004  e o  Decreto nº 6.949/2009 . 
+         Outra lei que tem de ser observada é a 13.146/2015, em especial, para sites, seus  arts. 63 a 73 . 
+         Além das ferramentas de acessibilidade disponibilizadas no código das páginas — como o texto alternativo para as imagens utilizadas, a descrição dos conteúdos de formulário, as teclas de atalho e de salto de conteúdo —, o usuário que tiver alguma dificuldade para acessar os conteúdos do site pode utilizar a ferramenta de zoom do navegador e, também, as opções de contraste de tela. 
+
+         Há uma validação constante das páginas do portal do TSE feita por meio de serviços on-line especializados, bem como o auxílio de alguns servidores da Justiça Eleitoral (portadores de necessidades especiais) a fim de garantir um acesso universal e democrático. 
+           
+         
+           Contraste 
+         Saiba como alterar o contraste da página: 
+
+
+        altera o contraste da página para tons de cinza;       altera o contraste da página para tons invertidos;       retorna o contraste original da página.  
+           
+     
+ " name="DC.codigohtml">
+<meta content="2018-05-03" name="DC.date.modified">
+<meta content="Tribunal Superior Eleitoral" name="DC.publisher.root">
+<meta content="Tribunal Superior Eleitoral" name="DC.publisher">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Plone - http://plone.org">
+<title>Acessibilidades — Tribunal Superior Eleitoral</title>
+<base href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/acessibilidades-tse">
+<link rel="stylesheet" media="screen" href="https://web.archive.org/web/20180628005148cs_/http://www.tse.jus.br/portal_css/je_portal_tema/reset-cachekey-c464f6c3039e229979f9c1c84ced39b7.css">
+<style media="screen">@import url(https://web.archive.org/web/20180628005148cs_/http://www.tse.jus.br/portal_css/je_portal_tema/base-cachekey-ff030e9d7ad52e46de12c0e2e4a7a99f.css);</style>
+<link rel="stylesheet" media="screen" href="https://web.archive.org/web/20180628005148cs_/http://www.tse.jus.br/portal_css/je_portal_tema/resourcetinymce.stylesheetstinymce-cachekey-c9f13c6d10eaa29b6c999aaaecda0f93.css">
+<style>@import url(https://web.archive.org/web/20180628005148cs_/http://www.tse.jus.br/portal_css/je_portal_tema/print-cachekey-a66a79f383ab288eae2b13f7ebaa5f1f.css);</style>
+<link rel="stylesheet" media="screen" href="https://web.archive.org/web/20180628005148cs_/http://www.tse.jus.br/portal_css/je_portal_tema/resourceplone.app.discussion.stylesheetsdiscussion-cachekey-64355b3c548b2f9ec320541f7380c9c4.css">
+<link rel="stylesheet" media="screen" href="https://web.archive.org/web/20180628005148cs_/http://www.tse.jus.br/portal_css/je_portal_tema/kupuplone-cachekey-f4528a53178cfb8f124a67d7a8c99cff.css">
+<style>@import url(https://web.archive.org/web/20180628005148cs_/http://www.tse.jus.br/portal_css/je_portal_tema/je.modal.edit-cachekey-907fe4f6fd48c3ba5f0ad5868d9fa715.css);</style>
+<link rel="shortcut icon" href="https://web.archive.org/web/20180628005148im_/http://www.tse.jus.br/favicon.ico">
+<link rel="apple-touch-icon" href="https://web.archive.org/web/20180628005148im_/http://www.tse.jus.br/touch_icon.png">
+<link rel="search" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/@@search" title="Buscar neste site">
+<link rel="stylesheet" href="https://web.archive.org/web/20180628005148cs_/http://www.tre-ac.jus.br/temas/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://web.archive.org/web/20180628005148cs_/http://www.tre-ac.jus.br/temas/css/plugins.min.css">
+<link rel="stylesheet" href="https://web.archive.org/web/20180628005148cs_/http://www.tre-ac.jus.br/temas/css/master.min.css">
+<link rel="stylesheet" href="https://web.archive.org/web/20180628005148cs_/http://www.tre-ac.jus.br/temas/css/internas.min.css">
+<link rel="stylesheet" href="https://web.archive.org/web/20180628005148cs_/http://www.tre-ac.jus.br/temas/css/plus.css">
+<link rel="stylesheet" href="https://web.archive.org/web/20180628005148cs_/http://www.tre-ac.jus.br/temas/css/print.min.css">
+<link rel="stylesheet" href="https://web.archive.org/web/20180628005148cs_/http://www.tre-ac.jus.br/temas/css/monocraticas.min.css">
+<!--[if lt IE 9]>
+        <script src="http://www.tre-ac.jus.br/temas/js/vendor/ie.min.js"></script>
+        <![endif]--><!--[if lt IE 8]>
+        <![endif]--><script src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/vendor/modernizr.min.js"></script><script src="https://web.archive.org/web/20180628005148js_/http://www.tse.jus.br/portal_javascripts/je_portal_tema/resourceplone.app.jquery-cachekey-235847cb7329c1f13a4b960ae0d00a36.js"></script><script src="https://web.archive.org/web/20180628005148js_/http://www.tse.jus.br/portal_javascripts/je_portal_tema/kss-bbb-cachekey-1640b62b54a614f35edf696492887b1a.js"></script><script src="https://web.archive.org/web/20180628005148js_/http://www.tse.jus.br/portal_javascripts/je_portal_tema/searchJE-cachekey-d320007a3064c62144be054aa52fdce4.js"></script><!-- Google Tag Manager --><script class="tse-tag-manager">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;j.src='https://web.archive.org/web/20180628005148/https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);})
+        (window,document,'script','dataLayer','GTM-KGQLBWK');
+        </script><!-- End Google Tag Manager -->
+</head>
+<body class="template-paginahtml portaltype-fullhtmlpage site-tse section-acessibilidades-tse userrole-anonymous" dir="ltr">
+<!-- Google Tag Manager (noscript) --><noscript class="tse-tag-manager">
+            <iframe title="Google tag manager" src="https://web.archive.org/web/20180628005148if_/https://www.googletagmanager.com/ns.html?id=GTM-KGQLBWK" style="display:none;visibility:hidden; height:0; width:0;">
+            </iframe>
+        </noscript>
+<!-- End Google Tag Manager (noscript) --><header id="topo" class="nao-imprimir"><div class="centralizar">
+                <div class="links-topo">
+                    <div class="acessibilidade-atalhos">
+                        <a href="#content" accesskey="1" class="sr-only sr-only-focusable">
+                            <div class="atalhos-item"><span>ConteÃºdo principal [1]</span></div>
+                        </a>
+                        <a href="#nav-principal" accesskey="2" class="sr-only sr-only-focusable">
+                            <div class="atalhos-item"><span>Menu principal [2]</span></div>
+                        </a>
+                        <a href="#search" accesskey="3" class="sr-only sr-only-focusable aasd">
+                            <div class="atalhos-item"><span>Busca [3]</span></div>
+                        </a>
+                        <a href="#mapa-site" accesskey="4" class="sr-only sr-only-focusable">
+                            <div class="atalhos-item"><span>Mapa do site [4]</span></div>
+                        </a>
+                    </div>
+                    <div class="acessibilidade-links">
+                        <ul id="acessibilidade-links" class="list-inline pull-right">
+<li><a accesskey="7" title="Acessibilidade" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/acessibilidades-tse">
+            Acessibilidade
+        </a></li>
+<li class="contraste">
+<a href="#" title="Site com alto contraste preto">
+            Contraste
+        </a><span accesskey="" class="sr-only">Site com alto contraste preto</span>
+</li>
+</ul>
+<ul class="menu-login pull-right">
+<li>
+                                
+                            </li>
+                        </ul>
+</div>
+                </div>
+            </div>
+            <div id="acessibilidades">
+                <div class="centralizar">
+                    <div class="topo">
+                        <div class="logo">
+<h1 class="logo-titulo sr-only">Tribunal Superior Eleitoral</h1>
+<a class="logo-tribunal" accesskey="6" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/" title="Tribunal Superior Eleitoral"><img src="https://web.archive.org/web/20180628005148im_/http://www.tre-ac.jus.br/temas/imagens/logo-tse.png" alt="Logo Tribunal Superior Eleitoral"></a><p class="logo-descricao">
+        O Tribunal da Democracia
+    </p>
+</div>
+                        <div class="link-je">
+                            <a class="btn btn-link btn-xs" target="_blank" href="https://web.archive.org/web/20180628005148/http://www.justicaeleitoral.jus.br/">www.justicaeleitoral.jus.br</a>
+                        </div>
+                        <div id="search" class="pesquisa" data-spy="affix" data-offset-top="100"><form id="searchform" name="searchform" action="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/@@busca"><div class="form-group"><fieldset>
+<legend class="sr-only">Buscar</legend>
+<label for="busca" class="sr-only">Buscar</label><div class="input-group input-group-md">
+<input id="busca" name="searchable_text" class="form-control" placeholder="Buscar..." type="search" autocomplete="off"><input type="hidden" name="rotulo_noticia" id="rotulo_noticia"><div class="input-group-btn"><button class="icone icone-pesquisa btn btn-primary" type="submit"><span class="hidden-xs">Buscar</span><span class="fa fa-search visible-xs" aria-hidden="true"></span></button></div>
+</div>
+<div class="opcao-pesquisa exibir_secao">
+<input type="checkbox" id="opcao-pesquisa" name="path" aria-label="Buscar somente em..." title="Buscar somente em Acessibilidades" value="/portalje/tse"><label for="opcao-pesquisa">Apenas nesta seção</label>
+</div>
+<div class="busca-avancada text-right"><a accesskey="5" class="btn btn-link btn-xs" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/@@busca_avancada">
+                            busca avançada <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></div>
+</fieldset></div></form></div>
+                        <!-- <div id="campanhas-diversas">
+                            <div class="campanha-laco">
+                                <img src="imagens/laco-vermelho.png" alt="Campanha dezembro vermelho">
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </header><nav id="nav-principal" class="navbar navbar-default nao-imprimir" data-spy="affix" data-offset-top="100"><h2 class="sr-only">Menu Principal</h2>
+            <div class="centralizar">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand sr-only" href="#">Tribunal Superior Eleitoral</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="menu-principal"><ul class="nav navbar-nav">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Abrir menu Eleitor e eleições">
+                            Eleitor e eleições
+                    </a><ul class="dropdown-menu mais-itens-menu  sub-menu-duas-col">
+<li><ul>
+<li><strong>
+                                                        Eleitor <span class="fa fa-angle-double-down" aria-hidden="true"></span></strong></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/biometria/biometria" target="_self">
+                                                                Biometria
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/certidoes/certidoes" target="_self">
+                                                                Certidões
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/estatisticas-de-eleitorado/eleitorado" target="_self">
+                                                                Estatísticas do eleitorado
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/mesario/mesario" target="_self">
+                                                                Mesário
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/processo-eleitoral-brasileiro/funcionamento-do-processo-eleitoral-no-brasil" target="_self">
+                                                                Processo Eleitoral no Brasil
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/servicos/servicos-ao-eleitor" target="_self">
+                                                                Serviços ao eleitor
+                                                            </a></li>
+<li class="divider">
+<li><a class="btn-xs btn-link pull-right btn-primary-outline bt-detalhar" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor">
+                                                                    detalhar <i class="fa fa-angle-double-right" aria-hidden="true" title="menu Eleitor"><span class="sr-only" title="menu Eleitor">menu Eleitor</span></i></a></li>
+</ul></li>
+<li><ul>
+<li><strong>
+                                                        Eleições <span class="fa fa-angle-double-down" aria-hidden="true"></span></strong></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/calendario-eleitoral/calendario-eleitoral" target="_self">
+                                                                Calendário eleitoral
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/contas-eleitorais/contas-eleitorais-normas-e-regulamentos" target="_self">
+                                                                Contas eleitorais
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/desincompatibilizacao/desincompatibilizacao" target="_self">
+                                                                Desincompatibilização
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/eleicoes-2018/informacoes-sobre-as-eleicoes-2018" target="_self">
+                                                                Eleições 2018
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/eleicoes-anteriores/eleicoes-anteriores" target="_self">
+                                                                Eleições anteriores
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/eleicoes-suplementares/eleicoes-suplementares" target="_self">
+                                                                Eleições suplementares
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/estatisticas/estatisticas" target="_self">
+                                                                Estatísticas
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/plebiscitos-e-referendos/plebiscito-e-referendo" target="_self">
+                                                                Plebiscitos e referendos
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/urna-eletronica/urna-eletronica" target="_self">
+                                                                Urna eletrônica
+                                                            </a></li>
+<li class="divider">
+<li><a class="btn-xs btn-link pull-right btn-primary-outline bt-detalhar" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes">
+                                                                    detalhar <i class="fa fa-angle-double-right" aria-hidden="true" title="menu Eleições"><span class="sr-only" title="menu Eleições">menu Eleições</span></i></a></li>
+</ul></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Abrir menu Partidos">
+                            Partidos
+                    </a><ul class="dropdown-menu">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos/contas-partidarias/contas-partidarias" target="_self">
+                                            Contas partidárias
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos/filiacao-partidaria/filiacao-partidaria" target="_self">
+                                            Filiação partidária
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos/fundo-partidario-1/fundo-partidario" target="_self">
+                                            Fundo partidário
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos/partidos-politicos/registrados-no-tse" target="_self">
+                                            Partidos políticos
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos/propaganda-partidaria/propaganda-partidaria" target="_self">
+                                            Propaganda partidária
+                                        </a></li>
+<li class="divider">
+<li><a class="btn-xs btn-link pull-right btn-primary-outline bt-detalhar" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos">
+                                        detalhar <i class="fa fa-angle-double-right" aria-hidden="true" title="menu Partidos"><span class="sr-only" title="menu Partidos">menu Partidos</span></i></a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Abrir menu Área jurídica">
+                            Área jurídica
+                    </a><ul class="dropdown-menu mais-itens-menu  sub-menu-tres-col">
+<li><ul>
+<li><strong>
+                                                        Jurisprudência <span class="fa fa-angle-double-down" aria-hidden="true"></span></strong></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/decisoes/jurisprudencia" target="_self">
+                                                                Consultas de jurisprudência
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/informativo-tse-1/informativo-tse" target="_self">
+                                                                Informativo TSE
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/julgados-historicos/julgados-historicos" target="_self">
+                                                                Julgados históricos
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/pesquisa-de-jurisprudencia/contatos-dos-tres" target="_self">
+                                                                Jurisprudência nos TREs
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/jurisprudencia-por-assunto" target="_self">
+                                                                Jurisprudência por assunto
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/perguntas-frequentes" target="_self">
+                                                                Perguntas frequentes
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/revista-de-jurisprudencia-do-tse" target="_self">
+                                                                Revista de Jurisprudência do TSE
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/codigo-eleitoral/sumulas/sumulas-do-tse" target="_self">
+                                                                Súmulas
+                                                            </a></li>
+<li class="divider">
+<li><a class="btn-xs btn-link pull-right btn-primary-outline bt-detalhar" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia">
+                                                                    detalhar <i class="fa fa-angle-double-right" aria-hidden="true" title="menu Jurisprudência"><span class="sr-only" title="menu Jurisprudência">menu Jurisprudência</span></i></a></li>
+</ul></li>
+<li><ul>
+<li><strong>
+                                                        Legislação <span class="fa fa-angle-double-down" aria-hidden="true"></span></strong></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/codigo-eleitoral" target="_self">
+                                                                Código Eleitoral Anotado e Legislação Complementar
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/legislacao-compilada/leg_compilada" target="_self">
+                                                                Legislação compilada
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/materias-interesse-je" target="_self">
+                                                                Matérias de interesse da JE (SinTSE)
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/pesquisa-por-e-mail" target="_self">
+                                                                Pesquisa por e-mail
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/regimento-interno" target="_self">
+                                                                Regimento interno
+                                                            </a></li>
+<li class="divider">
+<li><a class="btn-xs btn-link pull-right btn-primary-outline bt-detalhar" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao">
+                                                                    detalhar <i class="fa fa-angle-double-right" aria-hidden="true" title="menu Legislação"><span class="sr-only" title="menu Legislação">menu Legislação</span></i></a></li>
+</ul></li>
+<li><ul>
+<li><strong>
+                                                        Serviços judiciais <span class="fa fa-angle-double-down" aria-hidden="true"></span></strong></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/servicos-judiciais/processos/processos" target="_self">
+                                                                Processos
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/servicos-judiciais/publicacoes-oficiais/publicacoes-oficiais" target="_self">
+                                                                Publicações oficiais
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/apresentacao" target="_self">
+                                                                Sessões de julgamento
+                                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/servicos-judiciais/mais-servicos/servicos-judiciais" target="_self">
+                                                                Mais serviços
+                                                            </a></li>
+<li class="divider">
+<li><a class="btn-xs btn-link pull-right btn-primary-outline bt-detalhar" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/servicos-judiciais">
+                                                                    detalhar <i class="fa fa-angle-double-right" aria-hidden="true" title="menu Serviços judiciais"><span class="sr-only" title="menu Serviços judiciais">menu Serviços judiciais</span></i></a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/imprensa/noticias-tse" title="Abrir menu Notícias">
+                            Notícias
+                    </a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Abrir menu Transparência">
+                            Transparência
+                    </a><ul class="dropdown-menu dropdown-menu-right">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/auditorias/planos-anuais" target="_self">
+                                            Auditorias
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/contas-publicas/apresentacao" target="_self">
+                                            Contas públicas
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/estatistica-processual/estatistica-processual" target="_self">
+                                            Estatística processual
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/fundo-especial-de-financiamento-de-campanha/fundo-especial-de-financiamento-de-campanha" target="_self">
+                                            Fundo Especial de Financiamento de Campanha
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/licitacoes-e-contratos/apresentacao" target="_self">
+                                            Licitações, contratos e gestão patrimonial
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/pessoal/apresentacao" target="_self">
+                                            Pessoal
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/politica-de-privacidade-e-termos-de-uso" target="_self">
+                                            Política de privacidade e termos de uso
+                                        </a></li>
+<li class="divider">
+<li><a class="btn-xs btn-link pull-right btn-primary-outline bt-detalhar" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia">
+                                        detalhar <i class="fa fa-angle-double-right" aria-hidden="true" title="menu Transparência"><span class="sr-only" title="menu Transparência">menu Transparência</span></i></a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Abrir menu O TSE">
+                            O TSE
+                    </a><ul class="dropdown-menu dropdown-menu-right">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/corregedoria-geral-eleitoral/a-corregedoria" target="_self">
+                                            Corregedoria-Geral Eleitoral
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/cultura-e-historia/apresentacao" target="_self">
+                                            Cultura e história
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/escola-judiciaria-eleitoral/apresentacao" target="_self">
+                                            Escola Judiciária Eleitoral
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/ministros/apresentacao" target="_self">
+                                            Ministros
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/sobre-o-tse/apresentacao" target="_self">
+                                            Sobre o TSE
+                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/tribunais-regionais" target="_self">
+                                            Tribunais regionais
+                                        </a></li>
+<li class="divider">
+<li><a class="btn-xs btn-link pull-right btn-primary-outline bt-detalhar" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse">
+                                        detalhar <i class="fa fa-angle-double-right" aria-hidden="true" title="menu O TSE"><span class="sr-only" title="menu O TSE">menu O TSE</span></i></a></li>
+</ul>
+</li>
+</ul></div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav><div class="mais-acessados nao-imprimir">
+            <div class="acessos">
+                <div class="centralizar" role="alert">
+                    <div id="historico-acessos">
+                    </div>
+                </div>
+            </div>
+            <div class="mais-acessados-abrir text-right">
+                <div class="centralizar">
+                    <div class="acessados-link">
+                        <span class="abrir-acessos banner-left label label-default label-action label-arrow">mais acessados <i class="fa fa-angle-double-up" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="acessibilidade-rybena" class="text-right"><div class="centralizar">
+<button type="button" class="areaRybenaLibras btn btn-link"><i class="icon-rybena-libras"></i><span class="sr-only">Conversão de texto para Libras</span></button><button type="button" class="areaRybenaTTS btn btn-link"><i class="icon-rybena-leitura"></i><span class="sr-only">Conversão de texto para Voz</span></button>
+</div></div>
+<div class="centralizar">
+            <div id="breadcrumb-plone"><section id="breadcrumb" class="nao-imprimir"><ol class="breadcrumb">
+<li>Você está em: </li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/">
+                    Página inicial
+                </a></li>
+<li class="active">
+                        Acessibilidades
+                    </li>
+</ol>
+<ul class="list-inline pull-right hidden-xs">
+<li><a href="javascript:this.print();">
+                    [Imprimir]
+                </a></li>
+<li><a tabindex="0" role="button" data-toggle="popover" data-trigger="click" data-placement="bottom" data-content="<a href='http://www.tse.jus.br/acessibilidades-tse/download_pdf?dt=0305201813151525364104&amp;pdf-view=paginahtml'>PDF</a>
+                                                            <a href='http://www.tse.jus.br/acessibilidades-tse/download_rtf'>RTF</a>">
+                        [Salvar]
+                    </a></li>
+</ul></section></div>
+<div id="conteudo-pagina" class="pull-right pagina-com-coluna">
+<div class="">
+<dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+<dt>Info</dt>
+<dd></dd>
+</dl>
+<div id="content"><div>
+<main role="main"><div id="compartilhar-conteudo" class="noticia-compartilhar nao-imprimir"><div class="noticia-icone">
+<a aria-label="Compartilhar página via email" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/acessibilidades-tse/sendto_form"><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x noticia-icone-background"></i><i class="fa fa-stack-1x fa-envelope" aria-hidden="true"><span class="sr-only">Compartilhar página via email</span></i></span></a><a href="#compartilhar-facebook" class="compartilhar_facebook" aria-label="Compartilhar página via facebook"><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x noticia-icone-background"></i><i class="fa fa-stack-1x fa-facebook" aria-hidden="true"><span class="sr-only">Compartilhar página via facebook</span></i></span></a><a href="https://web.archive.org/web/20180628005148/https://twitter.com/share" target="_blank" data-lang="pt" data-count="none" aria-label="Compartilhar página via twitter"><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x noticia-icone-background"></i><i class="fa fa-stack-1x fa-twitter" aria-hidden="true"><span class="sr-only">Compartilhar página via twitter</span></i></span></a><a href="#compartilhar-google-plus" class="compartilhar-google-plus" aria-label="Compartilhar página via google plus"><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x noticia-icone-background"></i><i class="fa fa-stack-1x fa-google-plus" aria-hidden="true"><span class="sr-only">Compartilhar página via google plus</span></i></span></a><a href="#" class="compartilhar_whatsapp visible-sm-inline-block visible-xs-inline-block" aria-label="Compartilhar página via whatsapp"><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x noticia-icone-background"></i><i class="fa fa-stack-1x fa-whatsapp" aria-hidden="true"><span class="sr-only">Compartilhar página via Whatsapp</span></i></span></a>
+</div></div>
+<section id="texto-conteudo"><div id="conteudo" class="span-90 last">
+<!-- <div class="center">
+                        <div class="helper"> 
+                            <div id="imagemConteudo">
+                                
+                                <img src=" http://www.tse.jus.br/imagens/imagens/banner-logo-dasilva-pagina-acessibilidade/image_destaque_interno" alt="Banner logo DaSilva página acessibilidade"><br><span id="legendaPaginaInterna"></span>
+                            </div>
+                        </div>
+                    </div> --><div id="tituloInterno"><h2>Acessibilidade</h2></div>
+<div id="textoConteudo">
+<h3><strong>Atalhos</strong></h3>
+<p>Confira os comandos utilizados como atalhos para acessar seções específicas no Portal TSE:</p>
+<p><strong>Usando o Google Chrome</strong></p>
+<ul type="disc">
+<li>
+<strong>Alt+1</strong> direciona para o conteúdo principal do portal</li>
+<li>
+<strong>Alt+2</strong> direciona para o menu principal do portal.</li>
+<li>
+<strong>Alt+3</strong> direciona para o campo de busca.</li>
+<li>
+<strong>Alt+4</strong> direciona para o mapa do site.</li>
+<li>
+<strong>Alt+5</strong> redireciona para a página de busca avançada.</li>
+<li>
+<strong>Alt+6</strong> redireciona para a página inicial.</li>
+<li>
+<strong>Alt+7</strong> redireciona para a página de acessibilidade.</li>
+</ul>
+<br><p><strong>Usando o Firefox</strong></p>
+<p>Ao utilizar o navegador Firefox, substitua <strong>Alt</strong><strong style="font-size:130%;">+</strong><strong>número</strong> pelo comando <strong>Alt</strong><strong style="font-size:130%;">+</strong><strong>Shift</strong><strong style="font-size:130%;">+</strong><strong>número</strong>. Sendo Firefox no Mac OS, em vez de <strong>Alt</strong><strong style="font-size:130%;">+</strong><strong>Shift</strong><strong style="font-size:130%;">+</strong><strong>número</strong>, tecle <strong>Ctrl</strong><strong style="font-size:130%;">+</strong><strong>Alt</strong><strong style="font-size:130%;">+</strong><strong>número</strong>.</p>
+<br><p><strong>Usando o Internet Explorer</strong></p>
+<p>Para quem utiliza o Internet Explorer, usa o <strong>Alt</strong><strong style="font-size:130%;">+</strong><strong>número</strong><strong style="font-size:130%;">+</strong><strong>Enter</strong>. </p>
+<br><p><strong>Usando o Ópera</strong></p>
+<p>Tecla-se <strong>Shift</strong><strong style="font-size:130%;">+</strong><strong>Esc</strong><strong style="font-size:130%;">+</strong><strong>número</strong>. Ao teclar apenas <strong>Shift</strong><strong style="font-size:130%;">+</strong><strong>Esc</strong> será exibida uma janela com todas as alternativas de <i>Acesskey</i> da página.</p>
+<h3><strong><em class="italico">Zoom</em></strong></h3>
+<p>Para facilitar a visualização, você pode usar o <em>zoom</em> do navegador (Internet Explorer, Mozilla Firefox, etc.). </p>
+<p> Confira os comandos que acionam as funções do <em>zoom</em>:</p>
+<ul type="disc">
+<li>Para aumentar a definição, basta pressionar a tecla <strong>CTRL</strong> e a tecla <strong style="font-size:130%;">+</strong> simultaneamente.</li>
+<li>Para diminuir, pressione a tecla <strong>CTRL</strong> e a tecla <strong style="font-size:130%;">-</strong> ao mesmo tempo.</li>
+<li>Para voltar ao tamanho normal, pressione a tecla <strong>CTRL </strong>e a tecla <strong>0</strong> (zero).</li>
+</ul>
+<p> </p>
+<p>O TSE desenvolve ações no sentido de facilitar e ampliar o acesso a seu portal de internet aos portadores de necessidades especiais e àqueles com restrições motoras transitórias.</p>
+<p> Ao codificar suas páginas web em conformidade com as recomendações do órgão que estabelece as diretrizes internacionais para a acessibilidade na Web - Web Content Accessibility Guidelines (WCAG), também atende ao que estabelece o art. 8º, § 3º, inciso VIII da <a href="https://web.archive.org/web/20180628005148/http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" target="_balnk">Lei nº 12.527/2011 </a>(Lei de Acesso à Informação), a <a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao-tse/res/2012/RES233812012.htm">Resolução-TSE nº 23.381/2012</a>, o <a href="https://web.archive.org/web/20180628005148/http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5296.htm" target="_blank">Decreto nº 5.296/2004</a> e o <a href="https://web.archive.org/web/20180628005148/http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6949.htm" target="_">Decreto nº 6.949/2009</a>.</p>
+<p>Outra lei que tem de ser observada é a 13.146/2015, em especial, para <em class="italico">sites</em>, seus <a href="https://web.archive.org/web/20180628005148/http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2015/Lei/L13146.htm#art63" target="_">arts. 63 a 73</a>.</p>
+<p>Além das ferramentas de acessibilidade disponibilizadas no código das páginas — como o texto alternativo para as imagens utilizadas, a descrição dos conteúdos de formulário, as teclas de atalho e de salto de conteúdo —, o usuário que tiver alguma dificuldade para acessar os conteúdos do <em class="italico">site</em> pode utilizar a ferramenta de <em class="italico">zoom</em> do navegador e, também, as opções de contraste de tela.</p>
+<p>Há uma validação constante das páginas do portal do TSE feita por meio de serviços on-line especializados, bem como o auxílio de alguns servidores da Justiça Eleitoral (portadores de necessidades especiais) a fim de garantir um acesso universal e democrático.</p>
+<p> </p>
+<!--[if IE]>
+          <h3><strong>Contraste</strong></h3>
+        <p>Saiba como alterar o contraste da página:</p>
+
+
+  <p style="margin-left:50px; clear:both; margin-top:10px;"><span style=" width:70px; text-align:center; display:block; float:left;"><a href="#" onclick="contraste(1);"><img src="/imagens/imagens/a-contraste-de-cinza" width="30" height="30" alt="Contraste Cinza" /></a></span>altera o contraste da página para tons de cinza;</p><p style="margin-left:50px; clear:both; margin-top:10px;"><span style=" width:70px; text-align:center; display:block; float:left;"><a href="#" onclick="contraste(2);"><img src="/imagens/imagens/a-contraste-invertido" width="30" height="30" alt="Contraste Invertido" /></a></span>altera o contraste da página para tons invertidos;</p><p style="margin-left:50px; clear:both; margin-top:10px;"><span style=" width:70px; text-align:center; display:block; float:left;"><a href="#" onclick="contraste(0);"><img src="/imagens/imagens/a-contraste-normal" width="30" height="30" alt="Contraste Original" /></a></span>retorna o contraste original da página.</p><![endif]--><p> </p>
+</div>
+</div></section></main><div id="sugestao-pagina" class="nao-imprimir">
+<script>
+            var verifyCallback = function(response) {
+                alert(response);
+            };
+            var widgetFeedback;
+            var onloadCallbackFeedback = function() {
+                widgetFeedback = grecaptcha.render('captcha-feedback', {
+                    'sitekey' : '6Lc0k1MUAAAAAJgAqPTO0dutvMB_m4ZVuvcvUMhA',
+                    'theme' : 'light'
+                });
+            };
+        </script><a href="#" data-toggle="modal" data-target="#modal-sugestao-pagina">Como foi sua navegação?</a><div class="modal fade nao-imprimir" id="modal-sugestao-pagina" tabindex="-1" role="dialog" aria-labelledby="Sugestaolabel"><form action="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/acessibilidades-tse/@@addfeed" method="POST" role="form" id="formulario-feed"><div class="modal-dialog" role="document"><div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="resetFeed()"><span aria-hidden="true">×</span></button><legend class="modal-title" id="Sugestaolabel">Para a melhoria da navegação, sua opinião é importante.</legend>
+</div>
+<div class="modal-body">
+<p>
+                            Caso necessite de informações institucionais acesse <a title="Link para a Ouvidoria" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor-e-eleicoes/servicos/ouvidoria">Ouvidoria.</a></p>
+<div id="form">
+<div class="form-group">
+<label for="email-feed" class="control-label">E-mail</label><input type="email" class="form-control" id="email-feed" name="feed_email">
+</div>
+<p>Como foi sua experiência em nosso site?</p>
+<div class="form-group feed-ex-site" data-toggle="buttons">
+<label for="ex-site-pessima" class="radio-inline btn"><input type="radio" name="feed_experiencia_site" id="ex-site-pessima" value="péssima"><i class="fa fa-4x fa-times" aria-hidden="true"><span class="sr-only">péssima</span></i> péssima
+                                </label><label for="ex-site-ruim" class="radio-inline btn"><input type="radio" name="feed_experiencia_site" id="ex-site-ruim" value="ruim"><i class="fa fa-4x fa-frown-o" aria-hiddewn="true"><span class="sr-only">ruim</span></i> ruim
+                                </label><label for="ex-site-normal" class="radio-inline btn"><input type="radio" name="feed_experiencia_site" id="ex-site-normal" value="normal"><i class="fa fa-4x fa-meh-o" aria-hidden="true"><span class="sr-only">normal</span></i> normal
+                                </label><label for="ex-site-boa" class="radio-inline btn"><input type="radio" name="feed_experiencia_site" id="ex-site-boa" value="boa"><i class="fa fa-4x fa-smile-o" aria-hidden="true"><span class="sr-only">boa</span></i> boa
+                                </label><label for="ex-site-otima" class="radio-inline btn"><input type="radio" name="feed_experiencia_site" id="ex-site-otima" value="ótima"><i class="fa fa-4x fa-heart" aria-hidden="true"><span class="sr-only">ótima</span></i> ótima
+                                </label>
+</div>
+<p>Seu feedback</p>
+<div id="seu-feedback">
+<ul class="nav nav-tabs abas-personalizadas" role="tablist">
+<li role="presentation" class="active"><a href="#feed-esc-sugestao" aria-controls="home" role="tab" data-toggle="tab">Sugestão</a></li>
+<li role="presentation"><a href="#feed-esc-elogio" aria-controls="home" role="tab" data-toggle="tab">Elogio</a></li>
+<li role="presentation"><a href="#feed-esc-criticas" aria-controls="home" role="tab" data-toggle="tab">Críticas</a></li>
+<li role="presentation"><a href="#feed-esc-erro" aria-controls="home" role="tab" data-toggle="tab">Erro na página</a></li>
+<li role="presentation"><a href="#feed-esc-nao-encontrou" aria-controls="home" role="tab" data-toggle="tab">Não encontrou o que queria?</a></li>
+</ul>
+<!-- Tab panes --><div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="feed-esc-sugestao">
+<label for="texts-sugestao" class="sr-only">Escrever sugestão</label><textarea class="form-control textarea-feed" rows="3" id="texts-sugestao" name="feed_sugestao"></textarea>
+</div>
+<div role="tabpanel" class="tab-pane" id="feed-esc-elogio">
+<label for="texts-elogio" class="sr-only">Escrever Elogio</label><textarea class="form-control textarea-feed" rows="3" id="texts-elogio" name="feed_elogio"></textarea>
+</div>
+<div role="tabpanel" class="tab-pane" id="feed-esc-criticas">
+<label for="texts-criticas" class="sr-only">Escrever críticas</label><textarea class="form-control textarea-feed" rows="3" id="texts-criticas" name="feed_criticas"></textarea>
+</div>
+<div role="tabpanel" class="tab-pane" id="feed-esc-erro">
+<label for="texts-erro" class="sr-only">Escrever erro na página</label><textarea class="form-control textarea-feed textarea-feed" rows="3" id="texts-erro" name="feed_erro"></textarea>
+</div>
+<div role="tabpanel" class="tab-pane" id="feed-esc-nao-encontrou">
+<label for="texts-nao-encontrou" class="sr-only">Não encontrou o que queria</label><textarea class="form-control textarea-feed" rows="3" id="texts-nao-encontrou" name="feed_nao_encontrou"></textarea>
+</div>
+</div>
+</div>
+</div>
+<div id="resp"></div>
+<p class="img-loading loading-send-feed" style="display:none"><img src="/web/20180628005148im_/http://www.tse.jus.br/servico-loading.gif" alt="carregando"></p>
+</div>
+<div class="modal-footer"><div class="form-group">
+<div class="center-block"><div id="captcha-feedback"></div></div>
+<button type="reset" data-dismiss="modal" class="btn btn-primary" id="btn-cancel" onclick="resetFeed()">Cancelar</button><button type="submit" class="btn btn-primary" id="btn-enviar">Enviar feedback</button><button type="reset" data-dismiss="modal" class="btn btn-primary" id="btn-close" style="display:none" onclick="resetFeed()">Fechar</button>
+</div></div>
+</div></div></form></div>
+<style>
+        .error{background-color: #fdc; border: 1px solid red; padding: 0.5em; margin: 1em 0; width:100%;}
+        .requiredCaptcha{
+            border: 2px solid red;
+            width: 306px;
+        }
+    </style>
+<script src="https://web.archive.org/web/20180628005148js_/https://www.google.com/recaptcha/api.js?onload=onloadCallbackFeedback&amp;render=explicit" async defer></script>
+</div>
+</div></div>
+</div>
+<div id="viewlet-below-content">
+<!--<tal:block tal:define="userHasReplyPermission view/can_reply;--><!--isDiscussionAllowed view/is_discussion_allowed;--><!--isAnonymousDiscussionAllowed view/anonymous_discussion_allowed;--><!--isAnon view/is_anonymous;--><!--canReview view/can_review;--><!--replies python:view.get_replies(canReview);--><!--has_replies python:view.has_replies(canReview);--><!--showCommenterImage view/show_commenter_image;--><!--errors options/state/getErrors|nothing;--><!--wtool context/@@plone_tools/workflow;"--><!--tal:condition="python:isDiscussionAllowed or has_replies"--><!--i18n:domain="plone">--><!--<div class="reply"--><!--tal:condition="python:isAnon and not isAnonymousDiscussionAllowed">--><!--<form tal:attributes="action view/login_action">--><!--<input class="standalone"--><!--style="margin-bottom: 1.25em;"--><!--type="submit"--><!--value="Log in to add comments"--><!--i18n:attributes="value label_login_to_add_comments;"--><!--/>--><!--</form>--><!--</div>--><!--<div class="discussion"--><!--tal:attributes="class python: showCommenterImage and 'discussion showCommenterImage' or 'discussion';"--><!--tal:condition="has_replies">--><!--<tal:getreplies repeat="reply_dict replies">--><!--<div class="comment"--><!--tal:define="reply reply_dict/comment;--><!--depth reply_dict/depth|python:0;--><!--author_home_url python:view.get_commenter_home_url(username=reply.author_username);--><!--has_author_link python:author_home_url and not isAnon;--><!--portrait_url python:view.get_commenter_portrait(reply.author_username);--><!--review_state python:wtool.getInfoFor(reply, 'review_state');"--><!--tal:attributes="class python:'comment replyTreeLevel'+str(depth)+' state-'+str(review_state);--><!--style string:margin-left: ${depth}em;--><!--id string:${reply/getId}"--><!--tal:condition="python:canReview or review_state == 'published'">--><!--<div class="commentImage" tal:condition="showCommenterImage">--><!--<a href="" tal:condition="has_author_link"--><!--tal:attributes="href author_home_url">--><!--<img src="defaultUser.gif"--><!--alt=""--><!--border="0"--><!--height="32"--><!--tal:attributes="src portrait_url;--><!--alt reply/Creator" />--><!--</a>--><!--<img src="defaultUser.gif"--><!--alt=""--><!--border="0"--><!--height="32"--><!--tal:condition="not: has_author_link"--><!--tal:attributes="src portrait_url;--><!--alt reply/Creator" />--><!--</div>--><!--<div class="documentByLine" i18n:domain="plone.app.discussion">--><!--<div class="commentDate"--><!--tal:content="python:view.format_time(reply.modification_date)">--><!--8/23/2001 12:40:44 PM--><!--</div>--><!--</div>--><!--<div class="commentBody">--><!--<div tal:condition="reply/feed_tipo|nothing">--><!--Tipo: <span tal:content="reply/feed_tipo" />--><!--</div>--><!--<div tal:condition="reply/feed_email|nothing">--><!--Email: <span tal:content="reply/feed_email" />--><!--</div>--><!--<div tal:condition="reply/feed_experiencia|nothing">--><!--Experiência: <span tal:content="reply/feed_experiencia" />--><!--</div>--><!--<div tal:condition="reply/feed_text|nothing">--><!--Feed: <span tal:content="structure reply/feed_text" />--><!--</div>--><!--<div tal:condition="reply/feed_user_agent|nothing">--><!--Agent: <span tal:content="reply/feed_user_agent" />--><!--</div>--><!--<div tal:condition="reply/feed_andamento|nothing">--><!--Resolvido: <span tal:content="reply/feed_andamento" />--><!--</div>--><!--&lt;!&ndash;<span tal:replace="structure reply/getText" />&ndash;&gt;--><!--<div style="display:none" class="commentActions">--><!--<form name="delete"--><!--action=""--><!--method="post"--><!--style="display: inline;"--><!--tal:condition="canReview"--><!--tal:attributes="action string:${reply/absolute_url}/@@moderate-delete-comment">--><!--<input name="form.button.DeleteComment"--><!--class="destructive"--><!--type="submit"--><!--value="Delete"--><!--i18n:attributes="value label_delete;"--><!--/>--><!--</form>--><!--&lt;!&ndash; Workflow actions (e.g. 'publish') &ndash;&gt;--><!--<form name=""--><!--action=""--><!--method="get"--><!--style="display: inline;"--><!--tal:condition="canReview"--><!--tal:repeat="action reply_dict/actions|nothing"--><!--tal:attributes="action string:${reply/absolute_url}/@@moderate-publish-comment;--><!--name action/id">--><!--<input type="hidden" name="workflow_action" tal:attributes="value action/id" />--><!--<input name="form.button.PublishComment"--><!--class="context"--><!--type="submit"--><!--tal:attributes="value action/title"--><!--i18n:attributes="value"--><!--/>--><!--</form>--><!--</div>--><!--</div>--><!--<button class="context reply-to-comment-button hide allowMultiSubmit"--><!--tal:condition="python:isDiscussionAllowed and (isAnon and isAnonymousDiscussionAllowed or userHasReplyPermission)"--><!--i18n:translate="label_reply">--><!--Reply--><!--</button>--><!--</div>--><!--</tal:getreplies>--><!----><!--<div tal:condition="python: has_replies and not isDiscussionAllowed"--><!--class="discreet"--><!--i18n:domain="plone.app.discussion"--><!--i18n:translate="label_commenting_disabled">--><!--Commenting has been disabled.--><!--</div>--><!----><!--</div>--><!--<div class="reply"--><!--tal:condition="python:has_replies and (isAnon and not isAnonymousDiscussionAllowed)">--><!--<form tal:attributes="action view/login_action">--><!--<input class="standalone"--><!--style="margin-bottom: 1.25em;"--><!--type="submit"--><!--value="Log in to add comments"--><!--i18n:attributes="value label_login_to_add_comments;"--><!--/>--><!--</form>--><!--</div>--><!--<div style="display:none" id="commenting" class="reply" tal:condition="python:isDiscussionAllowed and (isAnon and isAnonymousDiscussionAllowed or userHasReplyPermission)">--><!--<fieldset>--><!--<legend i18n:translate="label_add_comment">Add comment</legend>--><!--<p tal:content="view/comment_transform_message">--><!--You can add a comment by filling out the form below. Plain text--><!--formatting.--><!--</p>--><!--<div tal:replace="structure view/form/render" />--><!--</fieldset>--><!--</div>--><!--</tal:block>-->
+</div>
+</div>
+            <div id="coluna-lateral" class="nao-imprimir">
+                <section id="tags"><h3>Tags</h3>
+<ul class="nav nav-pills nav-stacked"><li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/acessibilidades-tse/listacategoria?Subject=Acessibilidade">#Acessibilidade</a></li></ul></section><div id="gestor-responsavel">
+<h3>Gestor responsável</h3>
+<a tabindex="0" role="button" data-toggle="popover" data-trigger="click" title="Seção de Gestão de Conteúdos Web" data-placement="bottom" data-content="<p>Telefone: +55(61) 3030-9325</p><p>E-mail: <a href='mailto:sgweb@tse.jus.br'>sgweb@tse.jus.br</a></p><p>Última atualização:03/05/2018 13:15</p>">
+        Seção de Gestão de Conteúdos Web
+    </a>
+</div>
+            </div>
+        </div>
+<footer id="rodape" class="nao-imprimir"><div class="faixa-rodape"><div class="centralizar"><div class="conteudo-faixa">
+<div class="faixa-caixa-1"><ul class="list-inline">
+<li class="item-link faixa-item"><a href="https://web.archive.org/web/20180628005148/http://english.tse.jus.br/" title="English portal">
+                                English portal
+                            </a></li>
+<li class="item-link faixa-item"><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/sobre-o-tse/espaco-do-servidor/espaco-do-servidor" title="Espaço do servidor">
+                                Espaço do servidor
+                            </a></li>
+<li class="item-link faixa-item"><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/sistemas/sei/sei-usuario-externo" title="SEI - Usuário externo">
+                                SEI - Usuário externo
+                            </a></li>
+<li class="item-link faixa-item"><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/servicos/carta-de-servicos-ao-eleitor" title="Carta de serviços ao eleitor">
+                                Carta de serviços ao eleitor
+                            </a></li>
+<li class="item-link faixa-item"><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/glossario/glossario-eleitoral" title="Glossário Eleitoral">
+                                Glossário Eleitoral
+                            </a></li>
+</ul></div>
+<div class="faixa-caixa-2"><ul class="list-inline"><li class="item-icon faixa-item faixa-last"><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/acesso-a-informacao/acesso-a-informacao" target="_self" title="Acesso à Informação"><img src="https://web.archive.org/web/20180628005148im_/http://www.tse.jus.br/admin-tse/acesso-a-informacao/@@images/7cecd2a7-4bd7-466e-9991-86ca3f1f9460.png" alt="Acesso à Informação"></a></li></ul></div>
+</div></div></div>
+            <div class="rodape">
+                <div class="centralizar">
+                    <div id="texto-rodape">
+<section class="endereco"><h2 class="sr-only">Endereço e telefones do tribunal.</h2>
+<span class="adr"><span class="type" style="display:none;">Judiciário:</span><span class="locality"><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/sobre-o-tse/mapa" title="ícone de como chegar"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> Como chegar</a><br>
+Setor de Administração  Federal Sul (SAFS)</span>, <span class="street-address">Quadra 7, Lotes 1/2</span><br><span class="postal-code">Brasília/DF – 70070-600</span></span> – <span class="tel">Tel.: <a href="https://web.archive.org/web/20180628005148/tel:(61)%203030-7000">(61) 3030-7000</a></span><br>
+Protocolo Administrativo: sala V 101, <span class="type">fax: <span class="tel">(61) 3030-9850</span></span><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/sobre-o-tse/comunicados/regras-para-envio-de-documentos-ao-tse"> – Regras de envio</a><br>
+Protocolo Judiciário: sala V 504, <span class="type">fax: <span class="tel"><a href="https://web.archive.org/web/20180628005148/tel:%20(61)%203030-9951"> (61) 3030-9951</a></span></span><br>
+Horário de funcionamento dos protocolos: das 11h às 19h
+<br><br><p><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/politica-de-privacidade-e-termos-de-uso" title="Página contendo a política de privacidade e termos de uso">Política de privacidade e termos de uso</a></p></section><div class="icones-e-links">
+<section class="redes-sociais"><h2 class="sr-only">Mídias sociais</h2>
+<div class="text-center">
+<a target="_blank" aria-label="link para youtube" href="https://web.archive.org/web/20180628005148/https://www.youtube.com/user/justicaeleitoral"><i class="fa fa-2x fa-youtube" aria-hidden="true"><span class="sr-only">YouTube</span></i></a><a target="_blank" aria-label="link para twitter" href="https://web.archive.org/web/20180628005148/https://twitter.com/tsejusbr"><i class="fa fa-2x fa-twitter" aria-hidden="true"><span class="sr-only">Twitter</span></i></a><a target="_blank" aria-label="link para facebook" href="https://web.archive.org/web/20180628005148/https://www.facebook.com/TSEJus"><i class="fa fa-2x fa-facebook" aria-hidden="true"><span class="sr-only">Facebook</span></i></a><a target="_blank" aria-label="link para flickr" href="https://web.archive.org/web/20180628005148/https://www.flickr.com/photos/144801833@N06/"><i class="fa fa-2x fa-flickr" aria-hidden="true"><span class="sr-only">Flickr</span></i></a><a target="_blank" aria-label="link para rss" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/noticias-em-rss"><i class="fa fa-2x fa-rss" aria-hidden="true"><span class="sr-only">RSS</span></i></a>
+</div></section><section class="links-gerais text-center"><div class="text-center espaco-imagem">
+<h2 class="sr-only">Ouvidoria do tribunal</h2>
+<a class="btn btn-block btn-outline-default" title="Fale com a ouvidoria" href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/servicos/ouvidoria"><img alt="Icone do Fale conosco" src="https://web.archive.org/web/20180628005148im_/http://www.tre-ac.jus.br/temas/imagens/call-center-icon.png"> Fale conosco
+                    </a>
+</div></section>
+</div>
+</div>
+                </div>
+            </div>
+            <div id="mapa-site" class="mapa-site-abrir">
+                <div class="centralizar">
+                    <div class="mapa-site-link text-center ">
+                        <span class="acao banner-left banner-right label label-action label-arrow">Mapa do site <i class="fa fa-angle-double-down" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div>
+            <nav id="mapa-site-conteudo" class="mapa-site-conteudo"><div class="centralizar">
+<div class="titulo-personalizado"><h2 class="titulo-padrao h4">Mapa do site</h2></div>
+<div class="coluna-mapa">
+<h3 class="h5"><strong style="text-transform:uppercase;">Eleitor</strong></h3>
+<ul class="list-unstyled lista-links">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/biometria/biometria" target="_self">
+                                                            Biometria
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/certidoes/certidoes" target="_self">
+                                                            Certidões
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/estatisticas-de-eleitorado/eleitorado" target="_self">
+                                                            Estatísticas do eleitorado
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/mesario/mesario" target="_self">
+                                                            Mesário
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/processo-eleitoral-brasileiro/funcionamento-do-processo-eleitoral-no-brasil" target="_self">
+                                                            Processo Eleitoral no Brasil
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleitor/servicos/servicos-ao-eleitor" target="_self">
+                                                            Serviços ao eleitor
+                                                        </a></li>
+</ul>
+</div>
+<div class="coluna-mapa">
+<h3 class="h5"><strong style="text-transform:uppercase;">Eleições</strong></h3>
+<ul class="list-unstyled lista-links">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/calendario-eleitoral/calendario-eleitoral" target="_self">
+                                                            Calendário eleitoral
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/contas-eleitorais/contas-eleitorais-normas-e-regulamentos" target="_self">
+                                                            Contas eleitorais
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/desincompatibilizacao/desincompatibilizacao" target="_self">
+                                                            Desincompatibilização
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/eleicoes-2018/informacoes-sobre-as-eleicoes-2018" target="_self">
+                                                            Eleições 2018
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/eleicoes-anteriores/eleicoes-anteriores" target="_self">
+                                                            Eleições anteriores
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/eleicoes-suplementares/eleicoes-suplementares" target="_self">
+                                                            Eleições suplementares
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/estatisticas/estatisticas" target="_self">
+                                                            Estatísticas
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/plebiscitos-e-referendos/plebiscito-e-referendo" target="_self">
+                                                            Plebiscitos e referendos
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/eleicoes/urna-eletronica/urna-eletronica" target="_self">
+                                                            Urna eletrônica
+                                                        </a></li>
+</ul>
+</div>
+<div class="coluna-mapa">
+<h3 class="h5"><strong style="text-transform:uppercase;">Partidos</strong></h3>
+<ul class="list-unstyled lista-links">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos/contas-partidarias/contas-partidarias" target="_self">
+                                                Contas partidárias
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos/filiacao-partidaria/filiacao-partidaria" target="_self">
+                                                Filiação partidária
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos/fundo-partidario-1/fundo-partidario" target="_self">
+                                                Fundo partidário
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos/partidos-politicos/registrados-no-tse" target="_self">
+                                                Partidos políticos
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/partidos/propaganda-partidaria/propaganda-partidaria" target="_self">
+                                                Propaganda partidária
+                                            </a></li>
+</ul>
+</div>
+<div class="coluna-mapa">
+<h3 class="h5"><strong style="text-transform:uppercase;">Jurisprudência</strong></h3>
+<ul class="list-unstyled lista-links">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/decisoes/jurisprudencia" target="_self">
+                                                            Consultas de jurisprudência
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/informativo-tse-1/informativo-tse" target="_self">
+                                                            Informativo TSE
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/julgados-historicos/julgados-historicos" target="_self">
+                                                            Julgados históricos
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/pesquisa-de-jurisprudencia/contatos-dos-tres" target="_self">
+                                                            Jurisprudência nos TREs
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/jurisprudencia-por-assunto" target="_self">
+                                                            Jurisprudência por assunto
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/perguntas-frequentes" target="_self">
+                                                            Perguntas frequentes
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/jurisprudencia/revista-de-jurisprudencia-do-tse" target="_self">
+                                                            Revista de Jurisprudência do TSE
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/codigo-eleitoral/sumulas/sumulas-do-tse" target="_self">
+                                                            Súmulas
+                                                        </a></li>
+</ul>
+</div>
+<div class="coluna-mapa">
+<h3 class="h5"><strong style="text-transform:uppercase;">Legislação</strong></h3>
+<ul class="list-unstyled lista-links">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/codigo-eleitoral" target="_self">
+                                                            Código Eleitoral Anotado e Legislação Complementar
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/legislacao-compilada/leg_compilada" target="_self">
+                                                            Legislação compilada
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/materias-interesse-je" target="_self">
+                                                            Matérias de interesse da JE (SinTSE)
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/pesquisa-por-e-mail" target="_self">
+                                                            Pesquisa por e-mail
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/legislacao/regimento-interno" target="_self">
+                                                            Regimento interno
+                                                        </a></li>
+</ul>
+</div>
+<div class="coluna-mapa">
+<h3 class="h5"><strong style="text-transform:uppercase;">Serviços judiciais</strong></h3>
+<ul class="list-unstyled lista-links">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/servicos-judiciais/processos/processos" target="_self">
+                                                            Processos
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/servicos-judiciais/publicacoes-oficiais/publicacoes-oficiais" target="_self">
+                                                            Publicações oficiais
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/apresentacao" target="_self">
+                                                            Sessões de julgamento
+                                                        </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/servicos-judiciais/mais-servicos/servicos-judiciais" target="_self">
+                                                            Mais serviços
+                                                        </a></li>
+</ul>
+</div>
+<div class="coluna-mapa">
+<h3 class="h5"><strong style="text-transform:uppercase;">Transparência</strong></h3>
+<ul class="list-unstyled lista-links">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/auditorias/planos-anuais" target="_self">
+                                                Auditorias
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/contas-publicas/apresentacao" target="_self">
+                                                Contas públicas
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/estatistica-processual/estatistica-processual" target="_self">
+                                                Estatística processual
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/fundo-especial-de-financiamento-de-campanha/fundo-especial-de-financiamento-de-campanha" target="_self">
+                                                Fundo Especial de Financiamento de Campanha
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/licitacoes-e-contratos/apresentacao" target="_self">
+                                                Licitações, contratos e gestão patrimonial
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/pessoal/apresentacao" target="_self">
+                                                Pessoal
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/transparencia/politica-de-privacidade-e-termos-de-uso" target="_self">
+                                                Política de privacidade e termos de uso
+                                            </a></li>
+</ul>
+</div>
+<div class="coluna-mapa">
+<h3 class="h5"><strong style="text-transform:uppercase;">O TSE</strong></h3>
+<ul class="list-unstyled lista-links">
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/corregedoria-geral-eleitoral/a-corregedoria" target="_self">
+                                                Corregedoria-Geral Eleitoral
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/cultura-e-historia/apresentacao" target="_self">
+                                                Cultura e história
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/escola-judiciaria-eleitoral/apresentacao" target="_self">
+                                                Escola Judiciária Eleitoral
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/ministros/apresentacao" target="_self">
+                                                Ministros
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/sobre-o-tse/apresentacao" target="_self">
+                                                Sobre o TSE
+                                            </a></li>
+<li><a href="https://web.archive.org/web/20180628005148/http://www.tse.jus.br/o-tse/tribunais-regionais" target="_self">
+                                                Tribunais regionais
+                                            </a></li>
+</ul>
+</div>
+</div></nav></footer><script src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/jquery/jquery.min.js"></script><script src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/vendor/vendor.min.js"></script><script src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/plugins.min.js"></script><script src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/portal.min.js?v=1.1"></script><script src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/internas.min.js"></script><script src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/jquery.validate.min.js"></script><script src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/additional-methods.min.js"></script><script class="feedbackjs" src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/feedback.js?v=1.2"></script><script class="rybenajs" src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/vendor/rybenaDOMFull-1.5.js"></script><script class="rybenajs" src="https://web.archive.org/web/20180628005148js_/http://www.tre-ac.jus.br/temas/js/vendor/rybena-1.0.js"></script><script class="rybenajs">
+            ryb_ready(function() {
+                ryb_initRybena({
+                    'enableMobile': 'true',
+                    'divRybenaId': 'acessibilidade-rybena'
+                });
+            });
+        </script><script>
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-16748902-3']);
+                _gaq.push(['_trackPageview']);
+                (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://web.archive.org/web/20180628005148/https://ssl/' : 'https://web.archive.org/web/20180628005148/http://www/') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+            </script><script>
+                window.webtrendsAsyncInit=function(){
+                    var dcs=new Webtrends.dcs().init({
+                        dcsid:"dcssh8p8cblq1tgwok8milwk0_8c7s",
+                        domain:"sdc.tse.jus.br",
+                        timezone:-3,
+                        i18n:true,
+                        download:true,
+                        downloadtypes:"xls,doc,pdf,txt,csv,zip,docx,xlsx,rar,gzip",
+                        anchor:true,
+                        cookieexpires:0,
+                        fpcdom:".tse.jus.br",
+                        plugins:{
+                            //hm:{src:"//web.archive.org/web/20180628005148/http://s.webtrends.com/js/webtrends.hm.js"}
+                        }
+                        }).track();
+                };
+
+                (function(){
+                    var s=document.createElement("script"); s.async=true; s.src="https://web.archive.org/web/20180628005148/http://www.tre-ac.jus.br/temas/js/webtrends.min.js";
+                    var s2=document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(s,s2);
+                }());
+            </script><noscript id="webtrends"><img alt="dcsimg do webtrends" id="dcsimg" width="1" height="1" src="//web.archive.org/web/20180628005148im_/http://sdc.tse.jus.br/dcssh8p8cblq1tgwok8milwk0_8c7s/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.4.7&amp;dcssip=www.tse.jus.br"></noscript>
+</body>
+</html>
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'HIDLGNENAEIHOEGLILNBEOHLABBKNJEOIODGHOCDHMBBBJKGEELPNGLIOFGAIFAIAAAJOFCOKPMANHLAAAKEOCDJIDAKLGIABOGCCIFGEFIFODFGLDPCLKKIADGIIHAN',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,32,(latency>>8));str=f5_cspm.set_byte(str,33,(latency&0xff));str=f5_cspm.set_byte(str,27,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avraaaaaaaaaaaaaaaa='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><!--
+     FILE ARCHIVED ON 00:51:48 Jun 28, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:06:44 Sep 03, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  LoadShardBlock: 74.989 (3)
+  esindex: 0.02
+  captures_list: 111.748
+  CDXLines.iter: 22.454 (3)
+  PetaboxLoader3.datanode: 111.334 (4)
+  exclusion.robots: 0.333
+  exclusion.robots.policy: 0.312
+  RedisCDXSource: 7.061
+  PetaboxLoader3.resolve: 124.274
+  load_resource: 202.057
+-->
