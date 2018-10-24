@@ -7,8 +7,7 @@ vulnerabilidades que permitiam **execução de código arbitrário** na Urna Ele
 
 ### Palestra técnica
 
- * [Slides](https://epicleet.github.io/tps2017/apresentacao/slides.pdf) da palestra técnica
-   com nossos relatos dos testes.
+ * [Slides](slides) de palestras técnicas com nossos relatos dos testes.
 
 ### Cifragem e decifragem do sistema de arquivos
 
