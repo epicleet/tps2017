@@ -7,7 +7,7 @@ vulnerabilidades que permitiam **execução de código arbitrário** na Urna Ele
 
 ### Palestra técnica
 
- * [Slides](slides) de palestras técnicas com nossos relatos dos testes.
+ * Slides de palestras técnicas com nossos relatos dos testes: [[1]](https://epicleet.github.io/tps2017/slides/2017-12-ufscar.pdf), [[2]](https://github.com/epicleet/tps2017/raw/master/slides/2018-04-unicamp/demo.pdf), [[3]](https://epicleet.github.io/tps2017/slides/2017-12-ufscar.pdf)
 
 ### Cifragem e decifragem do sistema de arquivos
 
