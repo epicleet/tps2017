@@ -1,59 +1,44 @@
-# Resultados do TPS 2017
+# TPS 2017 results
 
-Durante o Teste Público de Segurança do Sistema Eletrônico de Votação de 2017, encontramos
-vulnerabilidades que permitiam **execução de código arbitrário** na Urna Eletrônica.
+\[[Português](README.pt_BR.md)\] \[**[English](README.md)**\]
 
-## Conteúdo deste repositório
+During the 2017 edition of the Public Security Tests of the Brazilian voting system, we found vulnerabilities allowing for **arbitrary code execution** in the voting machine.
 
-### Palestras técnicas
+## Repository contents
 
-Slides de palestras técnicas com nossos relatos dos testes:
+### Technical lectures
 
- * [12/2017: Palestra na UFSCar](https://epicleet.github.io/tps2017/slides/2017-12-ufscar.pdf)
- * [04/2018: Palestra na Unicamp](https://epicleet.github.io/tps2017/slides/2018-04-unicamp.pdf)
- * [10/2018: Apresentação na SBSeg](https://epicleet.github.io/tps2017/slides/2018-10-sbseg.pdf)
+Slides of technical lectures reporting our results (in Portuguese):
 
-### Cifragem e decifragem do sistema de arquivos
+ * [12/2017: Lecture at UFSCar](https://epicleet.github.io/tps2017/slides/2017-12-ufscar.pdf)
+ * [04/2018: Lecture at Unicamp](https://epicleet.github.io/tps2017/slides/2018-04-unicamp.pdf)
+ * [10/2018: Lecture at SBSeg](https://epicleet.github.io/tps2017/slides/2018-10-sbseg.pdf)
 
-O cartão de carga da urna utiliza o sistema de arquivos `ueminix` (customizado pelo TSE),
-que ofusca o conteúdo dos arquivos cifrando-os com AES-XTS.
+### Encryption and decryption of the file system
 
-Disponibilizamos aqui dois utilitários relacionados a esse sistema de arquivos:
+The install card uses the custom `ueminix` file system, which obfuscates file contents by encrypting their contents with AES-XTS.
 
- * [encall.py](fs_crypto/encall.py): cifra os arquivos originais, criando um diretório `enc`
-   com os arquivos cifrados.
+Here we release two tools related to that file system:
 
- * [decall.py](fs_crypto/decall.py): decifra os arquivos do diretório `enc`, criando um
-   diretório `dec` com todos os arquivos decifrados.
+ * [encall.py](fs_crypto/encall.py): encrypts original files into the `enc` directory.
 
-Note que é necessário fornecer a imagem do disco (`dsk.img`), por dois motivos:
+ * [decall.py](fs_crypto/decall.py): decrypts files from the `enc` directory into the  `dec` directory.
 
- * O *padding* da cifra não pode ser lido diretamente a partir do espaço de usuário,
-   portanto lemos da imagem de disco.
+Please note it is needed to provide the disk image (`dsk.img`), for the following reasons:
 
- * Uma das chaves do AES-XTS está contida no segundo setor da partição, e é recuperada
-   pelos próprios utilitários.
+ * The cipher padding may not be directly read from userspace, therefore we read it from the disk image.
 
-A outra chave do AES-XTS pode ser recuperada do código do `ueminix` no kernel, e deve ser
-configurada diretamente no código fonte dos utilitários (variável `key1`). Sem acesso ao
-código fonte, essa chave poderia ser obtida através de engenharia reversa do bootloader e
-do kernel decifrado (ver
-[relatório feito pelo TSE](https://epicleet.github.io/tps2017/relatorios/tse/relatorioTPS2017.pdf#page=8)).
+ * One of the AES-XTS keys is contained in the second sector of the partition. The tools themselves recover this key.
 
-### Alteração de votos na urna
+The other AES-XTS key may be recovered from the kernel's `ueminix` code and must be set up directly in the tool's source code (`key1` variable). If access to the source code is not available, one can recover this key by emulating the bootloader, dumping the decrypted kernel and reverse engineering it.
 
-O arquivo [exploit.py](exploit/exploit.py) ilustra o ataque que propomos para
-alterar votos na urna. Infectamos a biblioteca [hkdf](exploit/hkdf.cpp) com um
-código que, por sua vez, infecta o espaço de memória do executável
-[vota](exploit/gui/infoeleitor.cpp) (software de votação).
+### Tampering with votes
 
-Os trechos de código do [hkdf](exploit/hkdf.cpp) e do [vota](exploit/gui/infoeleitor.cpp) replicam
-a estrutura do software original da urna eletrônica, permitindo simular o ataque em um
-modelo simplificado muito próximo do sistema real.
+The file [exploit.py](exploit/exploit.py) illustrates the attack to tamper with votes. We infect the [hkdf](exploit/hkdf.cpp) library with code which infects [vota](exploit/gui/infoeleitor.cpp)'s memory space.
 
-Assim como o software original da urna, o simulador do software de votação é um software de 32 bits.
-Por isso, caso o seu sistema seja de 64 bits, você precisa instalar as bibliotecas de 32 bits para
-conseguir executá-lo. Por exemplo, caso você utilize Debian ou Ubuntu, execute os seguintes comandos:
+Code excerpts from [hkdf](exploit/hkdf.cpp) and [vota](exploit/gui/infoeleitor.cpp) mock the official voting application's structure, allowing to simulate the attack in a simplified model remarkably close to the real system.
+
+Just like the voting machine's official software, our voting software simulator is a 32-bit software. Therefore, if you have a 64-bit system, you need to install the 32-bit libraries to be able to run the simulator. For instance, if you use Debian or Ubuntu, run the following commands:
 
 ```bash
 sudo dpkg --add-architecture i386
@@ -61,32 +46,24 @@ sudo apt-get update
 sudo apt-get install libqt5multimedia5:i386
 ```
 
-Para executar o simulador do software de votação, entre no diretório `exploit` e execute
-`make test_cli` para iniciar o simulador modo texto, ou `make test_gui` para iniciar
-o simulador gráfico.
+To execute the voting software simulator, enter directory `exploit` and run `make test_cli` to execute the command line interface (CLI) simulator, or run `make test_gui` to execute the graphical user interface (GUI) simulator.
 
-Para infectar a biblioteca, instale o [pwntools](https://github.com/Gallopsled/pwntools#installation)
-e execute `make exploit_cli` para comprometer o simulador modo texto, ou
-`make exploit_gui` para comprometer o simulador modo gráfico.
+To infect the library, install [pwntools](https://github.com/Gallopsled/pwntools#installation) and run `make exploit_cli` to compromise the CLI simulator, or run `make exploit_gui` to compromise the GUI simulator.
 
-Depois disso, ao executar novamente o simulador do software de votação, você observará que
-os votos foram alterados.
+After that, when the voting simulator is rerun, the malicious code modifies the votes.
 
-Se quiser restaurar o comportamento original, execute `make restore`.
+To restore the original behaviour, run `make restore`.
 
-### Fluxo de um ataque real
+### How to carry a real attack
 
-Um ataque real seguiria o seguinte fluxo:
+A real attack would follow the following steps:
 
-1. Obteríamos a imagem com o conteúdo de uma mídia de carga
-2. Faríamos engenharia reversa no bootloader e no kernel decifrado para obter a
-chave que cifra/decifra os outros arquivos da mídia de carga
-3. Decifraríamos o sistema de arquivos
-4. Executaríamos o exploit para infectar o arquivo `libhkdf.so` original
-5. Cifraríamos novamente para gerar uma mídia de carga modificada
+1. Obtain an image of the install card contents.
+2. Reverse engineer the bootloader and the decrypted kernel to obtain the key which ciphers/deciphers other install card's files.
+3. Decipher the filesystem.
+4. Run the exploit to infect `libhkdf.so`.
+5. Cipher the modified file to generate an infected install card.
 
-## Sobre a equipe
+## About the team
 
-Nossa equipe é composta por membros do [ELT](https://ctftime.org/team/9061), time
-interinstitucional que participa de competições de CTF. Conheça também o
-[Pwn2Win](https://pwn2win.party), competição organizada anualmente por nós.
+Our team comprises members from [ELT](https://ctftime.org/team/9061), an interinstitutional team which participates in CTF competitions. We also organise an annual competition called [Pwn2Win](https://pwn2win.party).
